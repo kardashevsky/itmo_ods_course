@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sentence-transformers
+transformers
+faiss-cpu
+numpy
+torch==2.0.1+cpu
+requests
