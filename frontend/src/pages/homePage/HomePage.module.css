@@ -95,13 +95,6 @@
   margin-bottom: 5px;
 }
 
-.developerInfo {
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  color: #666666;
-  line-height: 1.5;
-}
-
 .actionCall {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
@@ -152,10 +145,6 @@
 
   .developerName {
     font-size: 14px;
-  }
-
-  .developerInfo {
-    font-size: 12px;
   }
 
   .startButton {

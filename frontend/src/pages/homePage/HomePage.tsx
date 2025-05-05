@@ -39,24 +39,6 @@ export default function HomePage() {
             className={styles.developerPhoto}
           />
           <p className={styles.developerName}>Дмитрий Кардашевский</p>
-          <p className={styles.developerInfo}>
-            Дмитрий — Fullstack-разработчик и DevOps-инженер.  
-            Он создал удобный и интуитивно понятный интерфейс, разрабатывал Backend, занимался интеграцией RAG системы и обеспечил деплой проекта.  
-            Его вклад делает MedBro быстрым, надёжным и комфортным для каждого пользователя.
-          </p>
-        </div>
-        <div className={styles.developer}>
-          <img
-            src="/grishaAvatar.jpg"
-            alt="Developer 2"
-            className={styles.developerPhoto}
-          />
-          <p className={styles.developerName}>Григорий Геращенко</p>
-          <p className={styles.developerInfo}>
-            Григорий — ведущий архитектор проекта.  
-            Он отвечает за разработку RAG системы, создаёт сложные алгоритмы и управляет интеграцией всех компонентов MedBro.  
-            Благодаря его знаниям и усилиям проект работает безупречно и стабильно.
-          </p>
         </div>
       </div>
     </div>
