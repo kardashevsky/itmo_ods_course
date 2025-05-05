@@ -8,7 +8,7 @@ import { sendMessageToServer } from "../../services/api";
 
 export default function ChatPage() {
   const [messages, setMessages] = useState([
-    { type: "ai", message: "Привет! Как я могу помочь тебе сегодня?" },
+    { type: "ai", message: "Hey! How can I help you today?" },
   ]);
   const [inputValue, setInputValue] = useState("");
   const [isTyping, setIsTyping] = useState(false);
