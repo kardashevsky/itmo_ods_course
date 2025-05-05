@@ -1,28 +1,18 @@
-# Используем официальный образ Python
-FROM python:3.9-slim
+FROM python:3.10-slim
 
-# Установка системных зависимостей
 RUN apt-get update && apt-get install -y \
     build-essential \
     && apt-get clean
 
-# Устанавливаем pip, если его нет
 RUN python -m ensurepip --upgrade && pip install --upgrade pip
 
-# Указываем рабочую директорию
 WORKDIR /app
 
-# Копируем содержимое проекта в контейнер
-COPY . /app
-
-# Копируем папку data в контейнер
-COPY /app/data /app/data
-
-# Устанавливаем Python-зависимости
+COPY requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Открываем порт для приложения
+COPY app/. /app
+
 EXPOSE 8000
 
-# Запуск приложения с uvicorn
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

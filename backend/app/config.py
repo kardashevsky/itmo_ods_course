@@ -6,13 +6,16 @@ import os
 # Базовая директория
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+# Папка с данными
+DATA_DIR = os.path.join(BASE_DIR, "data")
+
 # Пути к сохранённым данным
-EMBEDDINGS_PATH = os.path.join(BASE_DIR, "embeddings.npy")
-TEXTS_PATH = os.path.join(BASE_DIR, "texts.txt")
-FAISS_INDEX_PATH = os.path.join(BASE_DIR, "faiss_index")
+EMBEDDINGS_PATH = os.path.join(DATA_DIR, "embeddings.npy")
+TEXTS_PATH = os.path.join(DATA_DIR, "texts.txt")
+FAISS_INDEX_PATH = os.path.join(DATA_DIR, "faiss_index")
 
 
-# Название модели для векторизации
+# Модель для векторизации
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 # Настройка API Mistral

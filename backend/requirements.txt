@@ -3,6 +3,6 @@ uvicorn
 sentence-transformers
 transformers
 faiss-cpu
-numpy
-torch==2.0.1+cpu
+numpy==1.25.2
+torch==2.2.1
 requests
