@@ -39,6 +39,9 @@ export default function HomePage() {
             className={styles.developerPhoto}
           />
           <p className={styles.developerName}>Дмитрий Кардашевский</p>
+          <p className={styles.developerInfo}>
+            Дмитрий — разработчик, который создал MedBro с нуля. Он вложил в проект свои знания и опыт, чтобы сделать его максимально полезным для пользователей.
+          </p>
         </div>
       </div>
     </div>
