@@ -22,7 +22,7 @@ export default function Header() {
           damping: 25,
         }}
       >
-        MedBro
+        MEDA
       </motion.h1>
     </header>
   );

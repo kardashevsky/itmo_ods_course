@@ -9,7 +9,7 @@ services:
     volumes:
       - ./backend:/app
     networks:
-      - medbro_network
+      - meda_network
 
   frontend:
     build:
@@ -17,8 +17,8 @@ services:
     ports:
       - "3000:80"
     networks:
-      - medbro_network
+      - meda_network
 
 networks:
-  medbro_network:
+  meda_network:
     driver: bridge

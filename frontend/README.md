@@ -1,4 +1,4 @@
-# MedBro (Frontend)
+# MEDA (Frontend)
 
 ## Installation
 To set up the project, follow these steps:
@@ -6,13 +6,13 @@ To set up the project, follow these steps:
 1. Clone the repository:
 
   ```
-  git clone https://gitlab.com/kardashevsky/MedBro.git
+  git clone https://gitlab.com/kardashevsky/itmo_ods_course.git
   ```
 
 2. Navigate to the project directory:
 
   ```
-  cd MedBro/frontend
+  cd itmo_ods_course/frontend
   ```
 
 3. Install the necessary dependencies:
