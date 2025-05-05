@@ -34,7 +34,7 @@ export default function HomePage() {
       <div className={styles.developersContainer}>
         <div className={styles.developer}>
           <img
-            src="/dimaAvatar.jpg"
+            src="/avatar.jpg"
             alt="Developer 1"
             className={styles.developerPhoto}
           />

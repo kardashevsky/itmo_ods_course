@@ -1,1 +1,10 @@
-* text eol=lf
+# Общие настройки для текстовиков
+* text=auto eol=lf
+
+# Явное указание, что картинки — бинарные
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.ico binary
