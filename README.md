@@ -126,7 +126,7 @@ python app.py
 
 ## 📚 Data Sources
 
-- [PubMed abstracts (open biomedical literature)](https://pubmed.ncbi.nlm.nih.gov/)
+- [PubMed abstracts (open biomedical literature)](https://ftp.ncbi.nlm.nih.gov/pubmed/baseline)
 - Clinical recommendations (where available)
 - Synthetic patient records (for testing)
 
@@ -208,6 +208,13 @@ Initial testing was conducted manually using ~10 diverse medical questions.
 - Mehdi Iraqui, [Medical RAG using LangChain + Mistral 7B](https://medium.com/@mehdi.iraqui/medical-rag-system-using-langchain-and-mistral-7b-31c3982b0b52)
 - [LangChain Documentation](https://docs.langchain.com)
 - [Hugging Face](https://huggingface.co)
+
+---
+
+## 📄 Project Report
+
+The full project report (LaTeX PDF) is available at:  
+📥 [Download MEDA Report (PDF)](https://drive.google.com/file/d/1h3_hgqIdhH0Us0_DK9TeRDMr_00ZZON0/view?usp=sharing)
 
 ---
 
