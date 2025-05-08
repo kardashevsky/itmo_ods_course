@@ -234,7 +234,7 @@ Initial testing was conducted manually using ~10 diverse medical questions.
 
 Project author: **Dmitry Kardashevsky**  
 ✉️ Email: [kardashevskydv@gmail.com](mailto:kardashevskydv@gmail.com)  
-🌐 GitHub: [github.com/kardashevskiy](https://github.com/kardashevsky)
-📄 LinkedIn: [linkedin.com/in/dmitrykardashevskiy](https://www.linkedin.com/in/kardashevsky/)
+🌐 GitHub: [github.com/kardashevsky](https://github.com/kardashevsky)
+📄 LinkedIn: [linkedin.com/in/kardashevsky](https://www.linkedin.com/in/kardashevsky/)
 
 For questions, suggestions, or contributions — feel free to reach out.
