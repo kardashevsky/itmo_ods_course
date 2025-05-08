@@ -32,7 +32,7 @@ Medical questions require **reliable**, **evidence-based**, and **interpretable*
 - 🧠 Apply NLP techniques to build a domain-specific Q&A system  
 - 🔍 Integrate vector search (retrieval) with generation (RAG)  
 - 📚 Work with real medical data: abstracts, notes, recommendations  
-- 🤖 Use modern frameworks like LangChain, FAISS, and Mistral  
+- 🤖 Use modern frameworks like LangChain, and Mistral  
 
 ---
 
@@ -52,7 +52,7 @@ Below is the architecture diagram of MEDA, showing how user queries flow through
 
 Main flow:
 1. User submits a medical question via the Web UI.
-2. Backend calls Retriever (FAISS/Chroma) to find relevant document chunks.
+2. Backend calls Retriever (Chroma) to find relevant document chunks.
 3. The query and context are used to construct a prompt.
 4. LLM (Mistral or Hugging Face) generates a grounded answer.
 5. Answer and source snippets are returned to the UI.
@@ -63,7 +63,7 @@ Main flow:
 
 | Layer        | Tools & Libraries                                |
 |--------------|--------------------------------------------------|
-| Backend      | LangChain, Python, FastAPI, FAISS, Chroma        |
+| Backend      | LangChain, Python, FastAPI, Chroma               |
 | Frontend     | React, Vite, TypeScript, TailwindCSS             |
 | Models       | Hugging Face BLOOMZ / Mistral 7B API             |
 | Deployment   | Docker, Docker Compose                           |
